@@ -192,6 +192,10 @@ footer {
 
   /* tablet */
   @media(max-width: 800px) {
+      .container {
+          width: 100%;
+          max-width: 800px;
+      }
 
       header {
         display: flex;
@@ -225,7 +229,7 @@ footer {
       .cta img {
         display: none;
       }
-      
+
       .main-content .middle-img {
         width: 100%;
         padding: 0 10px; 
@@ -235,6 +239,10 @@ footer {
 
 /* Phone */
   @media(max-width: 700px) {
+
+    .container {
+        width: 100%;
+    }
 
     header {
         display: flex;
