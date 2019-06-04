@@ -195,6 +195,7 @@ footer {
       .container {
           width: 100%;
           max-width: 800px;
+          margin: 0 auto;
       }
 
       header {
@@ -208,7 +209,7 @@ footer {
         width: 100%;
         padding: 2% auto;
         margin 0 auto;
-        justify-content: space-around;
+        justify-content: space-evenly;
       }
 
       header nav a {
@@ -230,10 +231,29 @@ footer {
         display: none;
       }
 
+      .main-content .top-content {
+        display: flex;
+        margin: 0 auto;
+      }
+
+      .main-content .top-content .text-content {
+        margin: 15px 0;
+        width: 48%;
+      }
+
       .main-content .middle-img {
         width: 100%;
         padding: 0 10px; 
-    }
+      }
+
+      .main-content .bottom-content {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .main-content .bottom-content .text-content {
+          width: 30%;
+      }
 
   }
 
